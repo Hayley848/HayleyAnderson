@@ -1,4 +1,4 @@
 Hayley's Website
 ==============
 
-Welcome to my website! The rest is in gh-pages.
+Welcome to my website! This is a work in progress.
