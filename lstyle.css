@@ -135,12 +135,11 @@ body {
 	}
 	.background h2 {
 		position: relative;
-		top: 10px;
 		margin: 10px 0;
+		line-height: 95%;
 	}
 	.background nav ul {
 		position: relative;
 		top: 10px;
-		margin: 10px 0;
 	}
 }
