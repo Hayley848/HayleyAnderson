@@ -135,9 +135,9 @@ p {
 	display: table;
 	clear: both;
 }
-@media handheld, screen and (max-width: 1050px) {
+@media handheld, screen and (max-width: 1055px) {
 	body {
-		width: 1050px;
+		width: 1055px;
 	}
 	nav ul {
 		float: none;
