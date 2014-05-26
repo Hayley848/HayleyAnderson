@@ -121,16 +121,17 @@ body {
 }
 @media handheld, screen and (max-width: 600px) {
 	body {
-		font-size: 90%;
+		font-size: 85%;
 	}
 	.background {
 		background: #222;
-		height: 500px;
+		height: 100%;
 	}
 	.background h1 {
 		position: relative;
 		top: 10px;
 		margin: 10px 0;
+		line-height: 95%;
 	}
 	.background h2 {
 		position: relative;
