@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'BebasNeue Light';
 	src:url('BebasNeue Light.ttf') format('truetype');
+}
+@font-face {
 	font-family: 'BebasNeue Regular';
 	src:url('BebasNeue Regular.ttf') format('truetype');
 }
