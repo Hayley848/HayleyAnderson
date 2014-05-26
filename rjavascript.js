@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("nav ul li a").bind({
+	$("a").bind({
 		mouseenter: function() {
 			$(this).css("text-decoration", "underline")
 		},
