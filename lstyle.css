@@ -142,6 +142,7 @@ body {
 	.background nav ul {
 		position: relative;
 		top: 10px;
+		margin: 10px 0;
 	}
 	.background nav ul li {
 		padding: .4em;
