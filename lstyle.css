@@ -2,6 +2,10 @@
 	font-family: 'BebasNeue Regular';
 	src:url('BebasNeue Regular.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src:url('BebasNeue Bold.ttf') format('truetype');
+}
 body {
 	width: 100%;
 	height: 100%;
@@ -71,7 +75,7 @@ body {
 	margin: 0;
 	z-index: 1;
 	text-align: center;
-	font-family: 'BebasNeue Regular' Helvetica, Arial, sans-serif;
+	font-family: 'BebasNeue Bold' Helvetica, Arial, sans-serif;
 	font-size: 4em;
 	color: #acf;
 }
@@ -124,12 +128,18 @@ body {
 		height: 500px;
 	}
 	.background h1 {
-		top: 20px;
+		position: relative;
+		top: 10px;
+		margin: 10px 0;
 	}
 	.background h2 {
-		top: 200px;
+		position: relative;
+		top: 10px;
+		margin: 10px 0;
 	}
 	.background nav ul {
-		top: 310px;
+		position: relative;
+		top: 10px;
+		margin: 10px 0;
 	}
 }
