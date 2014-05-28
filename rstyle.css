@@ -75,6 +75,16 @@ p {
 	max-width: 32em;
 	line-height: 120%;
 }
+.footer p {
+	margin-right: 34px;
+	font-size: .625em;
+	font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
+	color: #333;
+}
+.footer p a {
+	text-decoration: none;
+	color: #333;
+}
 .gridone .left {
 	float: left;
 	width: 35%;
