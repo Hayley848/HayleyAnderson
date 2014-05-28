@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://hayleyanderson.com/</loc>
+    <loc>http://hayleyanderson.us/</loc>
     <lastmod>2014-05-26</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.com/about</loc>
+    <loc>http://hayleyanderson.us/about.html</loc>
     <lastmod>2014-05-26</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.com/resume</loc>
+    <loc>http://hayleyanderson.us/resume.html</loc>
     <lastmod>2014-05-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.com/contact</loc>
+    <loc>http://hayleyanderson.us/contact.html</loc>
+    <lastmod>2014-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://hayleyanderson.us/resume.pdf</loc>
     <lastmod>2014-05-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
