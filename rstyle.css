@@ -76,7 +76,7 @@ p {
 	line-height: 120%;
 }
 .footer p {
-	margin-right: 38px;
+	margin: 0;
 	font-size: .94em;
 	font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
 	color: #333;
