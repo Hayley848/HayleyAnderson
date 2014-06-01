@@ -22,7 +22,7 @@ body {
 	z-index: 2;
 	background:url(landing.png) no-repeat center center;
 }
-.background .wheelone {
+.background .wheelone,.background .wheeltwo {
 	width: 100%;
 	height: 446px;
 	overflow: hidden;
@@ -30,27 +30,17 @@ body {
 	z-index: 1;
 	text-align: center;
 	top: 228px;
-	left: -607px;
 	background:url(wheel.png) no-repeat center center;
 	-webkit-animation: spin 2.5s infinite linear;
 	-moz-animation: spin 2.5s infinite linear;
 	-o-animation: spin 2.5s infinite linear;
 	animation: spin 2.5s infinite linear;
 }
+.background .wheelone {
+	left: -607px;
+}
 .background .wheeltwo {
-	width: 100%;
-	height: 446px;
-	overflow: hidden;
-	position: absolute;
-	z-index: 1;
-	text-align: center;
-	top: 228px;
 	left: 606px;
-	background:url(wheel.png) no-repeat center center;
-	-webkit-animation: spin 2.5s infinite linear;
-	-moz-animation: spin 2.5s infinite linear;
-	-o-animation: spin 2.5s infinite linear;
-	animation: spin 2.5s infinite linear;
 }
 @-webkit-keyframes spin {
 	0% { -webkit-transform: rotate(0deg); }
@@ -68,36 +58,28 @@ body {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(0deg); }
 }
-.background h1 {
+.background h1,.background h2,.background nav ul {
 	width: 100%;
 	position: absolute;
-	top: 250px;
 	margin: 0;
 	z-index: 1;
 	text-align: center;
+}
+.background h1 {
+	top: 250px;
 	font-family: 'BebasNeue Bold' Helvetica, Arial, sans-serif;
 	font-size: 4em;
 	color: #acf;
 }
 .background h2 {
-	width: 100%;
-	position: absolute;
 	top: 470px;
-	margin: 0;
-	z-index: 1;
-	text-align: center;
 	font-family: 'Lobster', Georgia, serif;
 	font-size: 3em;
 	color: #099;
 }
 .background nav ul {
-	width: 100%;
-	position: absolute;
 	top: 550px;
 	padding: 0;
-	margin: 0;
-	z-index: 1;
-	text-align: center;
 	list-style-type: none;
 }
 .background nav ul li {
@@ -127,22 +109,11 @@ body {
 		background: #222;
 		height: 100%;
 	}
-	.background h1 {
+	.background h1,.background h2,.background nav ul {
 		position: relative;
 		top: 10px;
 		margin: 10px 0;
 		line-height: 95%;
-	}
-	.background h2 {
-		position: relative;
-		top: 10px;
-		margin: 10px 0;
-		line-height: 95%;
-	}
-	.background nav ul {
-		position: relative;
-		top: 10px;
-		margin: 10px 0;
 	}
 	.background nav ul li {
 		padding: .4em;

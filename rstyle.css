@@ -44,21 +44,18 @@ h2 {
 	color: #946;
 	text-shadow: 1px 1px 0 #444;
 }
-h3 {
+h3,h4 {
 	margin: 0 0 0 34px;
 	padding: 0;
 	font-size: 1.875em;
-	font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
 	color: #333;
 	line-height: 115%;
 }
+h3 {
+	font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
+}
 h4 {
-	margin: 0 0 0 34px;
-	padding: 0;
-	font-size: 1.875em;
 	font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
-	color: #333;
-	line-height: 115%;
 }
 h4 span {
 	padding-right: .35em;
@@ -75,6 +72,40 @@ p {
 	max-width: 32em;
 	line-height: 120%;
 }
+.gridone .left,.gridtwo .left {
+	float: left;
+	width: 35%;
+	text-align: right;
+}
+.gridone .right,.gridtwo .right {
+	float: left;
+	width: 65%;
+	margin-top: -20px;
+}
+.gridone .left h3 {
+	margin-top: .48em;
+}
+.gridone .left h3:first-of-type {
+	margin-top: 0;
+}
+.left h3,.left h4 {
+	padding-right: 1.75em;
+}
+.gridthree .left {
+	float: left;
+	width: 58%;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.gridthree .right {
+	float: left;
+	width: 42%;
+}
+.gridone:after,.gridtwo:after,.gridthree:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 .footer p {
 	margin: 0;
 	font-size: .94em;
@@ -84,66 +115,6 @@ p {
 .footer p a {
 	text-decoration: none;
 	color: #333;
-}
-.gridone .left {
-	float: left;
-	width: 35%;
-	text-align: right;
-}
-.gridone .left h3 {
-	margin-top: .48em;
-}
-.gridone .left h3:first-of-type {
-	margin-top: 0;
-}
-.gridone .left h3,h4 {
-	padding-right: 1.75em;
-}
-.gridone .right {
-	float: left;
-	width: 65%;
-	margin-top: -20px;
-}
-.gridone:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.gridtwo .left {
-	float: left;
-	width: 35%;
-	text-align: right;
-}
-.gridtwo .left h3,h4 {
-	padding-right: 1.75em;
-}
-.gridtwo .right {
-	float: left;
-	width: 65%;
-	margin-top: -20px;
-}
-.gridtwo:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.gridthree .left {
-	float: left;
-	width: 58%;
-	text-align: right;
-	margin-bottom: 20px;
-}
-.gridthree .left h3,h4 {
-	padding-right: 1.75em;
-}
-.gridthree .right {
-	float: left;
-	width: 42%;
-}
-.gridthree:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 @media handheld, screen and (max-width: 1060px) {
 	body {
@@ -162,66 +133,36 @@ p {
 	}
 }
 @media handheld, screen and (max-width: 25em) {
-	body {
+	body,nav ul,h1,h2,h3,h4 {
 		width: 100%;
 	}
 	nav ul {
-		width: 100%;
 		text-align: center;
 		margin: 0;
 	}
 	nav ul li {
 		margin: 10px;
 	}
+	h1,h2,h3,h4 {
+		margin-left: 10px;
+	}
 	h1 {
-		width: 100%;
 		margin-bottom: 20px;
-		margin-left: 10px;
 		font-size: 6em;
-	}
-	h2 {
-		width: 100%;
-		margin-left: 10px;
-	}
-	h3 {
-		width: 100%;
-		margin-left: 10px;
-	}
-	h4 {
-		width: 100%;
-		margin-left: 10px;
 	}
 	h4 span {
 		padding: 0;
 	}
-	.gridone .left {
+	.gridone .left,.gridtwo .left,.gridthree .left {
 		width: 100%;
 		text-align: left;
 	}
-	.gridone .right {
+	.gridone .right,.gridtwo .right,.gridthree .right {
 		width: 0%;
 		height: 0;
 		font-size: 0;
-	}
-	.gridtwo .left {
-		width: 100%;
-		text-align: left;
-	}
-	.gridtwo .right {
-		width: 0%;
-		height: 0;
-		font-size: 0;
-	}
-	.gridthree .left {
-		width: 100%;
-		text-align: left;
 	}
 	.gridthree .left h3:last-of-type {
 		margin-top: .48em;
-	}
-	.gridthree .right {
-		width: 0%;
-		height: 0;
-		font-size: 0;
 	}
 }
