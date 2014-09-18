@@ -206,13 +206,13 @@ body {
 		line-height: 100%;
 	}
 	#about {
-		height: 650px;
+		height: 750px;
 	}
 	#about nav ul li {
 		margin: 10px;
 	}
 	#contact {
-		height: 500px;
+		height: 600px;
 		text-align: center;
 	}
 	#contact img {
