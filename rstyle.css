@@ -1,4 +1,8 @@
 @font-face {
+	font-family: 'BebasNeue Regular';
+	src:url('BebasNeue Regular.ttf') format('truetype');
+}
+@font-face {
 	font-family: 'BebasNeue Bold';
 	src:url('BebasNeue Bold.ttf') format('truetype');
 }
@@ -6,12 +10,8 @@
 	font-family: 'BebasNeue Light';
 	src:url('BebasNeue Light.ttf') format('truetype');
 }
-@font-face {
-	font-family: 'BebasNeue Regular';
-	src:url('BebasNeue Regular.ttf') format('truetype');
-}
 body {
-	background: #eef;
+	background: #F3EFF0;
 	font-size: 100%;
 }
 nav ul {
@@ -26,29 +26,29 @@ nav ul li a {
 	font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	text-align: right;
-	color: #333;
+	color: #282520;
 }
 h1 {
 	margin: 20px 30px -10px 30px;
 	padding: 0;
 	font-size: 7.5em;
 	font-family: 'BebasNeue Bold', Helvetica, Arial, sans-serif;
-	color: #099;
-	text-shadow: 2px 2px 0 #444;
+	color: #0383A7;
+	text-shadow: 2px 2px 0 #282520;
 }
 h2 {
-	margin: 32px 33px 30px 33px;
+	margin: 20px 33px 20px 33px;
 	padding: 0;
 	font-size: 2.5em;
 	font-family: 'BebasNeue Bold', Helvetica, Arial, sans-serif;
-	color: #946;
-	text-shadow: 1px 1px 0 #444;
+	color: #B41547;
+	text-shadow: 1px 1px 0 #282520;
 }
 h3,h4 {
 	margin: 0 0 0 34px;
 	padding: 0;
 	font-size: 1.875em;
-	color: #333;
+	color: #282520;
 	line-height: 115%;
 }
 h3 {
@@ -62,13 +62,13 @@ h4 span {
 }
 h4 a {
 	text-decoration: none;
-	color: #333;
+	color: #282520;
 }
 p {
 	margin-right: 36px;
 	font-size: 1.25em;
 	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-	color: #222;
+	color: #282520;
 	max-width: 32em;
 	line-height: 120%;
 }
@@ -82,39 +82,29 @@ p {
 	width: 65%;
 	margin-top: -20px;
 }
-.gridone .left h3 {
-	margin-top: .48em;
-}
-.gridone .left h3:first-of-type {
+.gridone .left h3:first-of-type,.gridtwo .left h3:first-of-type {
 	margin-top: 0;
+}
+.gridone .left h3,.gridtwo .left h3 {
+	margin-top: .48em;
 }
 .left h3,.left h4 {
 	padding-right: 1.75em;
 }
 .gridthree .left {
 	float: left;
-	width: 58%;
+	width: 50%;
 	text-align: right;
 	margin-bottom: 20px;
 }
 .gridthree .right {
 	float: left;
-	width: 42%;
+	width: 50%;
 }
 .gridone:after,.gridtwo:after,.gridthree:after {
 	content: "";
 	display: table;
 	clear: both;
-}
-.footer p {
-	margin: 0;
-	font-size: .94em;
-	font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
-	color: #333;
-}
-.footer p a {
-	text-decoration: none;
-	color: #333;
 }
 @media handheld, screen and (max-width: 1060px) {
 	body {

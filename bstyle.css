@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'BebasNeue Regular';
+	src:url('BebasNeue Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src:url('BebasNeue Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'BebasNeue Light';
+	src:url('BebasNeue Light.ttf') format('truetype');
+}
+body {
+	font-size: 100%;
+	background: #F3EFF0;
+}
+p {
+	font-family: 'BebasNeue Regular' Helvetica, Arial, sans-serif;
+	color: #0383A7;
+}
