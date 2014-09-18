@@ -1,35 +1,68 @@
 $(document).ready(function() {
-	$("nav ul li a").bind({
+	$("#about h3 a").bind({
 		mouseenter: function() {
-			$(this).css("color", "#099")
+			$(this).css("color", "#1DC4F3")
 		},
 		mouseleave: function() {
-			$(this).css("color", "white")
+			$(this).css("color", "#0383A7")
 		},
 		click: function() {
-			$(this).css("color", "white")
+			$(this).css("color", "#0383A7")
+		},
+	});
+	$("#about nav ul li a").bind({
+		mouseenter: function() {
+			$(this).css("background", "#1DC4F3")
+		},
+		mouseleave: function() {
+			$(this).css("background", "#F3EFF0")
+		},
+		click: function() {
+			$(this).css("background", "#F3EFF0")
 		}
 	});
-	$("h3 a").bind({
+	$("#about nav ul li a").bind({
 		mouseenter: function() {
-			$(this).css("color", "#099")
+			$(this).css("color", "#F3EFF0")
 		},
 		mouseleave: function() {
-			$(this).css("color", "#777")
+			$(this).css("color", "#1DC4F3")
 		},
 		click: function() {
-			$(this).css("color", "#777")
+			$(this).css("color", "#1DC4F3")
 		}
 	});
-	$("p a").bind({
+	$("#about nav ul li a").bind({
 		mouseenter: function() {
-			$(this).css("color", "#099")
+			$(this).css("border", "1px solid #F3EFF0")
 		},
 		mouseleave: function() {
-			$(this).css("color", "#777")
+			$(this).css("border", "1px solid #1DC4F3")
 		},
 		click: function() {
-			$(this).css("color", "#777")
+			$(this).css("border", "1px solid #1DC4F3")
+		}
+	});
+	$("#contact .typcn").bind({
+		mouseenter: function() {
+			$(this).css("color", "#1DC4F3")
+		},
+		mouseleave: function() {
+			$(this).css("color", "#F3EFF0")
+		},
+		click: function() {
+			$(this).css("color", "#F3EFF0")
+		}
+	});
+	$("#footer p a").bind({
+		mouseenter: function() {
+			$(this).css("text-decoration", "underline")
+		},
+		mouseleave: function() {
+			$(this).css("text-decoration", "none")
+		},
+		click: function() {
+			$(this).css("text-decoration", "none")
 		}
 	});
 });

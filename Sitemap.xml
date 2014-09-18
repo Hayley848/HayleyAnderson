@@ -2,27 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://hayleyanderson.us/</loc>
-    <lastmod>2014-05-26</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2014-09-17</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.us/about.html</loc>
-    <lastmod>2014-05-26</lastmod>
+    <loc>http://hayleyanderson.us/blog.html</loc>
+    <lastmod>2014-09-17</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://hayleyanderson.us/resume.html</loc>
-    <lastmod>2014-05-26</lastmod>
+    <lastmod>2014-09-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.us/contact.html</loc>
-    <lastmod>2014-05-26</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://hayleyanderson.us/resume1.pdf</loc>
-    <lastmod>2014-05-26</lastmod>
+    <loc>http://hayleyanderson.us/resume.pdf</loc>
+    <lastmod>2014-09-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
