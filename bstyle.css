@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'BebasNeue Regular';
-	src:url('BebasNeue Regular.ttf') format('truetype');
+	src:url('bebas/BebasNeue Regular.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'BebasNeue Bold';
-	src:url('BebasNeue Bold.ttf') format('truetype');
+	src:url('bebas/BebasNeue Bold.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'BebasNeue Light';
-	src:url('BebasNeue Light.ttf') format('truetype');
+	src:url('bebas/BebasNeue Light.ttf') format('truetype');
 }
 body {
 	font-size: 100%;
