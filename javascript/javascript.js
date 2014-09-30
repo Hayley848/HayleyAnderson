@@ -1,13 +1,13 @@
 $(document).ready(function() {
-	$("#about h3 a").bind({
+	$("#about h3 a, #about p a, #footer p a").bind({
 		mouseenter: function() {
-			$(this).css("color", "#1DC4F3")
+			$(this).css("text-decoration", "underline")
 		},
 		mouseleave: function() {
-			$(this).css("color", "#0383A7")
+			$(this).css("text-decoration", "none")
 		},
 		click: function() {
-			$(this).css("color", "#0383A7")
+			$(this).css("text-decoration", "none")
 		},
 	});
 	$("#about nav ul li a").bind({
@@ -52,17 +52,6 @@ $(document).ready(function() {
 		},
 		click: function() {
 			$(this).css("color", "#F3EFF0")
-		}
-	});
-	$("#footer p a").bind({
-		mouseenter: function() {
-			$(this).css("text-decoration", "underline")
-		},
-		mouseleave: function() {
-			$(this).css("text-decoration", "none")
-		},
-		click: function() {
-			$(this).css("text-decoration", "none")
 		}
 	});
 });
