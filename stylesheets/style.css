@@ -98,7 +98,7 @@ body {
 }
 #about nav ul {
 	position: relative;
-	top: 7.2em;
+	top: 5.7em;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -116,12 +116,17 @@ body {
 	display: block;
 	text-align: center;
 	font-size: 1.8em;
-	font-family: 'BebasNeue Regular' Helvetica, Arial, sans-serif;
+	font-family: 'BebasNeue Bold' Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: #1DC4F3;
 	background: #F3EFF0;
 	border: 1px solid #1DC4F3;
 	border-radius: 10px;
+}
+#about nav ul li a:hover {
+	background: #1DC4F3;
+	color: #F3EFF0;
+	border: 1px solid #F3EFF0;
 }
 #contact {
 	background: #B41547 50% 0 no-repeat fixed;
@@ -153,6 +158,9 @@ body {
 	text-align: center;
 	font-size: 3.0em;
 }
+#contact .typcn:hover {
+	color: #1DC4F3;
+}
 #footer {
 	background: #0383A7 50% 0 no-repeat fixed;
 	background-size: cover;
@@ -171,6 +179,9 @@ body {
 }
 #footer p span {
 	margin-right: 5px;
+}
+#about h3 a:hover, #about p a:hover, #footer p a:hover {
+	text-decoration: underline;
 }
 @media handheld, screen and (max-width: 50em) {
 	body {
@@ -192,7 +203,7 @@ body {
 	#about h3,#about p {
 		max-width: 90%;
 		margin-left: 5%;
-		
+
 	}
 	#contact img {
 		width: 200px;
