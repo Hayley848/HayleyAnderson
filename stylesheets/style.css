@@ -134,6 +134,9 @@ body {
 	height: 400px;
 	clear: both;
 }
+#contact a {
+	text-decoration: none;
+}
 #contact img {
 	width: 300px;
 	float: left;
@@ -183,12 +186,12 @@ body {
 #about h3 a:hover, #about p a:hover, #footer p a:hover {
 	text-decoration: underline;
 }
-@media handheld, screen and (max-width: 50em) {
+@media handheld, screen and (max-width: 55em) {
 	body {
 		font-size: 90%;
 	}
 }
-@media handheld, screen and (max-width: 45em) {
+@media handheld, screen and (max-width: 46em) {
 	#home {
 		background: #282520 50% 0 no-repeat fixed;
 		height: 500px;
