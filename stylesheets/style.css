@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'BebasNeue Regular';
-	src:url('../bebas/BebasNeue Regular.ttf') format('truetype');
+	src:url('../assets/bebas/BebasNeue Regular.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'BebasNeue Bold';
-	src:url('../bebas/BebasNeue Bold.ttf') format('truetype');
+	src:url('../assets/bebas/BebasNeue Bold.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'BebasNeue Light';
-	src:url('../bebas/BebasNeue Light.ttf') format('truetype');
+	src:url('../assets/bebas/BebasNeue Light.ttf') format('truetype');
 }
 body {
 	height: 100%;
@@ -28,7 +28,7 @@ body {
 	padding: 0;
 }
 #home {
-	background: url(../images/background.jpg) 50% 0 no-repeat fixed;
+	background: url(../assets/images/background.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
 	height: 900px;
 }
