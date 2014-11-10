@@ -181,6 +181,9 @@ a:hover {
 	.gridthree .left h3:last-of-type {
 		margin-top: .48em;
 	}
+	.professional-dev {
+		padding-left: 0;
+	}
 	.professional-dev h3 {
 		float: none;
 	}
