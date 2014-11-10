@@ -166,16 +166,25 @@ a:hover {
 	h4 span {
 		padding: 0;
 	}
-	.gridone .left,.gridtwo .left,.gridthree .left {
+	.gridthree {
+		display: block;
+	}
+	.gridone .left,.gridtwo .left,.gridthree .left, .gridthree .right {
 		width: 100%;
 		text-align: left;
 	}
-	.gridone .right,.gridtwo .right,.gridthree .right {
+	.gridone .right,.gridtwo .right {
 		width: 0%;
 		height: 0;
 		font-size: 0;
 	}
 	.gridthree .left h3:last-of-type {
 		margin-top: .48em;
+	}
+	.professional-dev h3 {
+		float: none;
+	}
+	.professional-dev h4 {
+		text-align: left;
 	}
 }
