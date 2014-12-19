@@ -327,6 +327,12 @@ body {
   #about nav ul li {
     margin: 10px;
   }
+  #portfolio {
+    height: 700px;
+  }
+  #portfolio .project {
+    width: 85%;
+  }
   #contact {
     height: 500px;
     text-align: center;
