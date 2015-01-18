@@ -124,6 +124,11 @@ body {
   background: #F3EFF0;
   border: 1px solid #1DC4F3;
   border-radius: 10px;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 #about nav ul li a:hover {
   background: #1DC4F3;
@@ -239,6 +244,11 @@ body {
   margin: 0 55px;
   text-align: center;
   font-size: 3.0em;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 #contact .typcn:hover {
   color: #1DC4F3;
