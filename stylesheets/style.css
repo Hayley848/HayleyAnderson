@@ -30,7 +30,7 @@ body {
 }
 
 #home {
-  background: url(../assets/images/background.jpg) 50% 0 no-repeat fixed;
+  background: url(https://s3.amazonaws.com/hayleyanderson/images/background.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
   height: 900px;
 }
@@ -241,7 +241,7 @@ body {
   width: 100%;
   top: 100px;
   margin: 0 auto;
-  margin: 0 55px;
+  margin: 0 52px;
   text-align: center;
   font-size: 3.0em;
   -webkit-transition: all 200ms ease-out;
@@ -278,9 +278,17 @@ body {
   text-decoration: underline;
 }
 
+@media handheld, screen and (max-width: 64em) {
+  #contact .typcn {
+    margin: 0 40px;
+  }
+}
 @media handheld, screen and (max-width: 58em) {
   body {
     font-size: 90%;
+  }
+  #contact .typcn {
+    margin: 0 30px;
   }
 }
 @media handheld, screen and (max-width: 53em) {
@@ -301,6 +309,9 @@ body {
   #portfolio .project .caption {
       opacity: 1;
   }
+  #contact .typcn {
+    margin: 0 15px;
+  }
 }
 @media handheld, screen and (max-width: 46em) {
   #home {
@@ -317,7 +328,6 @@ body {
   #about h3,#about p {
     max-width: 90%;
     margin-left: 5%;
-
   }
   #contact img {
     width: 200px;
