@@ -1,15 +1,36 @@
 @font-face {
-  font-family: 'BebasNeue Regular';
-  src:url('../assets/bebas/BebasNeue Regular.ttf') format('truetype');
+  font-family: 'bebas_neuebold';
+  src: url('../assets/bebas/bebasneue_bold-webfont.eot');
+  src: url('../assets/bebas/bebasneue_bold-webfont.eot?#iefix')
+       format('embedded-opentype'),
+       url('../assets/bebas/bebasneue_bold-webfont.woff2')
+       format('woff2'),
+       url('../assets/bebas/bebasneue_bold-webfont.woff')
+       format('woff'),
+       url('../assets/bebas/bebasneue_bold-webfont.ttf')
+       format('truetype'),
+       url('../assets/bebas/bebasneue_bold-webfont.svg#bebas_neuebold')
+       format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'BebasNeue Bold';
-  src:url('../assets/bebas/BebasNeue Bold.ttf') format('truetype');
+  font-family: 'bebas_neuelight';
+  src: url('../assets/bebas/bebasneue_light-webfont.eot');
+  src: url('../assets/bebas/bebasneue_light-webfont.eot?#iefix')
+       format('embedded-opentype'),
+       url('../assets/bebas/bebasneue_light-webfont.woff2')
+       format('woff2'),
+       url('../assets/bebas/bebasneue_light-webfont.woff')
+       format('woff'),
+       url('../assets/bebas/bebasneue_light-webfont.ttf')
+       format('truetype'),
+       url('../assets/bebas/bebasneue_light-webfont.svg#bebas_neuelight')
+       format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'BebasNeue Light';
-  src:url('../assets/bebas/BebasNeue Light.ttf') format('truetype');
-}
+
 body {
   color: #282520;
   background: #F3EFF0;
@@ -28,7 +49,7 @@ h1, h2, h3, h4, h5, p, ul, ul li {
 h1 {
   color: #0383A7;
   display: inline-block;
-  font-family: 'BebasNeue Bold', Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 7em;
   line-height: 90%;
   margin-left: -3px;
@@ -36,7 +57,7 @@ h1 {
 }
 h2 {
   color: #B41547;
-  font-family: 'BebasNeue Bold', Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 2em;
   text-shadow: 1px 1px 0 #282520;
 }
@@ -44,8 +65,8 @@ h3, h4 {
   font-size: 1.5em;
   line-height: 115%;
 }
-h3 { font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif; }
-h4 { font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif; }
+h3 { font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif; }
+h4 { font-family: 'bebas_neuelight', Helvetica, Arial, sans-serif; }
 h5 {
   font-size: 1em;
   font-weight: bold;
@@ -68,7 +89,7 @@ a:hover { text-decoration: underline; }
 }
 #nav ul li a {
   display: block;
-  font-family: 'BebasNeue Light', Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuelight', Helvetica, Arial, sans-serif;
   font-size: 1.75em;
   margin-bottom: 10px;
   text-align: right;
