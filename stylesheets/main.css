@@ -214,15 +214,24 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
 .contact-content a:first-of-type { margin-left: 0; }
 .contact-content a:last-of-type { margin-right: 0; }
 
-@media handheld, screen and (max-width: 58em) {
+@media handheld, screen and (max-width: 60em) {
   body { font-size: 90%; }
   #contact { margin-top: -4px; }
+  .about-content { margin: 0 16em; }
   .project {
     float: none;
     margin: 20px 12.5% !important;
     width: 75%;
   }
   .project .caption { opacity: 0.9; }
+}
+@media handheld, screen and (max-width: 53em) {
+  .left-border, .right-border { display: none; }
+  .about-content {
+    margin: 0 5%;
+    width: 90%;
+  }
+  #nav ul li { margin: 10px; }
 }
 @media handheld, screen and (max-width: 45em) {
   body, #home { background: #282520; }
@@ -238,24 +247,20 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
     margin: .3em 5%;
     width: 90%;
   }
-  .left-border, .right-border { display: none; }
   .headshot {
     margin: 20px;
     width: 200px;
   }
-  .about-content, .contact-content {
-    margin: 0 5%;
-    width: 90%;
-  }
-  #nav ul li { margin: 10px; }
   .project {
     margin: 20px 7.5% !important;
     width: 85%;
   }
   .contact-content {
     left: 0;
+    margin: 0 5%;
     margin-bottom: 20px;
     position: relative;
     right: 0;
+    width: 90%;
   }
 }
