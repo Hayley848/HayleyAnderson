@@ -214,6 +214,17 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
 .contact-content a:first-of-type { margin-left: 0; }
 .contact-content a:last-of-type { margin-right: 0; }
 
+@media handheld, screen and (max-width: 64em) {
+  body, #home { background: #282520; }
+  #home {
+    display: inline-block;
+    height: auto;
+  }
+  h1 {
+    margin: .5em 10%;
+    width: 80%;
+  }
+}
 @media handheld, screen and (max-width: 60em) {
   body { font-size: 90%; }
   #contact { margin-top: -4px; }
@@ -234,11 +245,6 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
   #nav ul li { margin: 10px; }
 }
 @media handheld, screen and (max-width: 45em) {
-  body, #home { background: #282520; }
-  #home {
-    display: inline-block;
-    height: auto;
-  }
   #contact { text-align: center; }
   #footer { text-align: center; }
   h1 {
