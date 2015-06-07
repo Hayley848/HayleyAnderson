@@ -109,7 +109,7 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
   width: 100%;
 }
 #home {
-  background: url(https://d157r98becwmu3.cloudfront.net/images/background.jpg) right bottom no-repeat fixed;
+  background: url(../assets/images/background.jpg) right bottom no-repeat fixed;
   background-size: cover;
   display: block;
   height: 900px;
