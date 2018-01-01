@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, p {
 }
 h1 {
   color: #0383A7;
-  font-family: 'bebas_neuebold' Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 6em;
   line-height: 115%;
   margin: 0 auto;
@@ -59,7 +59,7 @@ h1 {
   text-shadow: 2px 2px 0 #282520;
 }
 h2 {
-  font-family: 'bebas_neuebold' Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 4em;
   padding-top: .6em;
   text-align: center;
@@ -68,7 +68,7 @@ h2 {
 h3 { font-size: 1.8em; }
 h4 {
   font-size: 2.0em;
-  font-family: 'bebas_neuelight' Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuelight', Helvetica, Arial, sans-serif;
   margin-bottom: 1em;
 }
 h5 {
@@ -157,7 +157,7 @@ h3 a:hover, h5 a:hover, p a:hover { text-decoration: underline; }
   border-radius: 10px;
   display: block;
   font-size: 1.8em;
-  font-family: 'bebas_neuebold' Helvetica, Arial, sans-serif;
+  font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   padding: .4em;
   width: 4em;
 }
