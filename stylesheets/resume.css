@@ -32,8 +32,8 @@
 }
 
 body {
-  color: #282520;
-  background: #F3EFF0;
+  color: #00030E;
+  background: #B3C2D9;
   font-family: Georgia, Times, serif;
   font-size: 100%;
   height: 100%;
@@ -47,19 +47,19 @@ h1, h2, h3, h4, h5, p, ul, ul li {
   padding: 0;
 }
 h1 {
-  color: #0383A7;
+  color: #1F1F3F;
   display: inline-block;
   font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 7em;
   line-height: 90%;
   margin-left: -3px;
-  text-shadow: 2px 2px 0 #282520;
+  text-shadow: 2px 2px 0 #00030E;
 }
 h2 {
-  color: #B41547;
+  color: #4C6F8F;
   font-family: 'bebas_neuebold', Helvetica, Arial, sans-serif;
   font-size: 2em;
-  text-shadow: 1px 1px 0 #282520;
+  text-shadow: 1px 1px 0 #00030E;
 }
 h3, h4 {
   font-size: 1.5em;
@@ -74,7 +74,7 @@ h5 {
 }
 a {
   text-decoration: none;
-  color: #282520;
+  color: #00030E;
 }
 a:hover { text-decoration: underline; }
 #resume-header {
