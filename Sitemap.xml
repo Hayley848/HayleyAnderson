@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://hayleyanderson.us/</loc>
-    <lastmod>2014-12-21</lastmod>
+    <loc>https://hayleyanderson.us/</loc>
+    <lastmod>2019-09-02</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://hayleyanderson.us/resume.html</loc>
-    <lastmod>2014-12-21</lastmod>
+    <loc>https://hayleyanderson.us/resume.html</loc>
+    <lastmod>2019-09-02</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
